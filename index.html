@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="script1.js"></script>
+	<title>Exemplo</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+	<div class="cabecalho">
+		<h1>Bem-Vindo</h1>
+		<br>
+		<h2>Que tipo de esporte você procura?</h2>
+	</div>
+	<div class="CORPO">
+		<p>Aquele esporte que você não sabe o nome ou as regras e quer saber mais sobre ele mas não sabe onde pesquisar? Pessquise aqui!</p>
+		<br>
+		<input type="text" id="esporteInput" class="guru" placeholder="nome do esporte" list="Esportes">
+		<datalist id="Esportes">
+			<option value="Futebol">Futebol</option>
+			<option value="Volei">Volei</option>
+			<option value="Tenis de mesa">Tenis de mesa</option>
+		</datalist>
+		<button type="button" onclick="redirecionar()">Pesquisar</button>
+	</div>
+</body>
+</html>
